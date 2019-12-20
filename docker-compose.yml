@@ -9,9 +9,9 @@ services:
       - 8080:80
     environment:
       WORDPRESS_DB_HOST: db
-      WORDPRESS_DB_USER: '0769888'
+      WORDPRESS_DB_USER: '123zy'
       WORDPRESS_DB_PASSWORD: 'kefang0.---'
-      WORDPRESS_DB_NAME: '0769888'
+      WORDPRESS_DB_NAME: '123zy'
     volumes:
       - ./app/wp-content:/var/www/html/wp-content/
       - ./app/config/php-uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
@@ -21,8 +21,8 @@ services:
     ports:
      - 3366:3306
     environment:
-      MYSQL_DATABASE: '0769888'
-      MYSQL_USER: '0769888'
+      MYSQL_DATABASE: '123zy'
+      MYSQL_USER: '123zy'
       MYSQL_PASSWORD: 'kefang0.---'
       MYSQL_ROOT_PASSWORD: 'SlCUeVxNVbNpu9eESC3b14d'
     volumes:
